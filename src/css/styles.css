@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Genos:300,400,700/PT++Mono);
+:root{
+    --primary-color: rgb(0, 0, 0);
+    --second-color: rgb(19, 255, 216);
+    --tertiary-color: rgb(221, 223, 247); 
+    --fourth-color: red;
+}
+
+body{
+    background: linear-gradient(to right, rgb(137, 89, 89), rgb(178, 9, 9));
+    font-size: 17px;
+    font-family: Genos, sans-serif;
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: linear-gradient(gray, #f7f7f7);
+    box-shadow: 3px 3px 3px rgb(179, 177, 177);
+    border-radius: 20px;
+}
+
+.title{
+    background: linear-gradient(green, greenyellow);
+    color: var(--primary-color);
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsform{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.forminput{
+    background: linear-gradient (white, rgb(253, 230, 230));
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.forminput:focus{
+    border: 3px solid rgb(0, 255, 195);
+    outline: none;
+}
+
+.formselect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: linear-gradient(rgb(255, 64, 0),yellow);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+#totalTip{
+    font-size: 19px;
+    margin-top: 5px;
+    text-align: center;
+}
